@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h1> SpaceX Programs (NextJS)</h1>
+<h2>Developed by Ronald Patrick as part of Kudosware Coding Assignment<h2>
+<p> <h3>Features: </h3> <br>
+ <ul>
+   <li>Sort Programs According to Years </li>
+     <li>Sort Programs According to Successfull Launch & Landing</li>
+    <li>Responsive Design with Server Side Rendering
+   </ul>
+   <br>
+   <h3> Stack Used: </h3>
+   <ul>
+   <li>NextJS for features like Server Side Rendering</li>
+     <li>Space X Api provided by Kudosware</li>
+  <li>React's JSX and CSS for layout</li>
+   </ul>
+     <h3>Approach</h3>
+  <p>
+    <ul>
+      <li>Creating a useState for data returned by API</li>
+      <li>Using Javascript Filters to Update Usestate according to Applied filters</li>
+      <li>UseEffect for Re-rendering when program UseState Changes</li>
+      <li>Responsive Layout Using units like em and rem, Layout using flex and MediaQueries</li>
+      <li>Hosted on Vercel Platform </li>
+  </ul>
+  </p>
+     
+</p>
