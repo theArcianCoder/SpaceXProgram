@@ -1,16 +1,170 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+.App{
+    margin: 0;
+    padding: 0;
+    
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.head
+{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0px 10px 10px 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-* {
-  box-sizing: border-box;
+@media only screen and (max-width: 700px) {
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* height: 100%; */
+    }
+    .Cards{
+        width: 90%;
+        height: 70vh;
+    }
+    .sidebar{
+        height: 100%;
+    }
+  }
+  @media only screen and (max-width: 1024) {
+    
+  }
+  @media only screen and (min-width: 1440px) {
+    .container{
+        justify-content: center;
+    }
+}
+
+  .credits{
+      width: 100%;
+      text-align: center;
+      font-size: 23px;
+  }
+
+/* Sidebar */
+.sidebar{
+    height: 70%;
+    flex:1.5;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 0px 10px;
+    max-width: 250px;
+    min-width: 250px;
+    margin-bottom: 20px ;
+    align-items: center;
+
+}
+.sidehead{
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+
+}
+.side_subtitle{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.479);
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.btn{
+    margin:10px 10px ;
+    background-color: #c5e09a;
+    border: none;
+    width: 4em;
+    height: 2em;
+    outline: none;
+    border-radius: 7px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:#a7cc6b ;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+
+.active{
+    background-color: #7ab808;
+}
+
+/* Cards */
+  
+.cards{
+    flex: 7;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 30px;
+    max-width: 1200px;
+    align-items: center;
+}
+.error{
+    font-size: 3em;
+    font-weight: bold;
+    color: #7ab808;
+}
+
+/* Card */
+
+.card{
+    margin: 10px;
+    width: 15rem;
+    background-color: white;
+    padding: 20px;
+    max-height: 26rem;
+}
+
+.card_img
+{
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_img img{
+    width: 80%;
+}
+
+.card_name{
+    color: #4743c2;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.card_subhead{
+    font-weight: bolder;
+}
+
+.card_missions ul li{
+    margin: -10px;
+    margin-bottom: 10px;
+    color: #504cad;
+}
+.card_sub{
+    margin: 10px 0px;
+    display: flex;
+}
+.card_ans{
+    margin-left: 10px;
+    color: #4e4ab8;
 }
