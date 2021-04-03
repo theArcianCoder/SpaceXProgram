@@ -26,4 +26,6 @@
      <h3>ScreenShots<h3>
       <img src='s1.png'>
       <img src='s2.png'>
+      <img src='s3.png'>
+      *Performace decreases due to high quality images from api can be optimized if converted to webp"
 </p>
