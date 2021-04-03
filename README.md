@@ -23,5 +23,7 @@
       <li>Hosted on Vercel Platform </li>
   </ul>
   </p>
-     
+     <h3>ScreenShots<h3>
+      <img src='s1.png'>
+      <img src='s2.png'>
 </p>
