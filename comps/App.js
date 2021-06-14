@@ -152,7 +152,7 @@ function App() {
         <Cards program={program} />
       </div>
       <div className="credits">
-        <b>Developed By: </b>Ronald Patrick
+        <b>Developed By: </b>Vansh Raj
       </div>
     </div>
   );

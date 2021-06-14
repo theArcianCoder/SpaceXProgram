@@ -1,5 +1,5 @@
 <h1> SpaceX Programs (NextJS)</h1>
-<h2>Developed by Ronald Patrick as part of Kudosware Coding Assignment<h2>
+<h2>Developed by Vansh Raj  as part of Kudosware Coding Assignment<h2>
 <p> <h3>Features: </h3> <br>
  <ul>
    <li>Sort Programs According to Years </li>
@@ -23,9 +23,6 @@
       <li>Hosted on Vercel Platform </li>
   </ul>
   </p>
-     <h3>ScreenShots<h3>
-      <img src='s1.png'>
-      <img src='s2.png'>
-      <img src='s3.png'>
-      *Performace decreases due to high quality images from api can be optimized if converted to webp"
+    
+    
 </p>
